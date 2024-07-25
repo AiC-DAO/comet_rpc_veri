@@ -11,4 +11,4 @@
 
 反向从客户端的角度考虑，如果想要构造一个发往`Comet RPC`的交易，那就需要反向构造：
 
-`msgs👉Tx👉Tx bytes👉Tx bytes Base64 String👉Requst Params👉Requst👉Requst Json String`
+`msgs👉Tx👉Tx bytes(Proto Serialization)👉Tx bytes Base64 String👉Requst Params👉Requst👉Requst Json String`
